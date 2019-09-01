@@ -2,6 +2,9 @@ body {
   width: 95%;
   margin: auto;
   font-family: 'Roboto', sans-serif;
+  color: black;
+  background-image: url(https://images.pexels.com/photos/342971/pexels-photo-342971.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+  background-size: 100% 100%;
 }
 
 #nav {
@@ -14,7 +17,7 @@ body {
   margin: auto;
 }
 
-h2 {
+h4 {
   padding-top: 70px;
 }
 
@@ -22,44 +25,39 @@ h2 {
   color: #ff8d12;
 }
 
+#contact {
+  padding-top: 100px;
+  width: 95%;
+  height: 612px;
+  color: whitesmoke;
+  font-weight: bold;
+}
+
+#contact h4 {
+  padding-top: 120px;
+}
+
+#contact a {
+  text-decoration: none;
+  color: black;
+}
+
+#facebook:hover {
+  color: #3c5999;
+}
+
+#twitter:hover {
+  color: #27aae1;
+}
+
+#insta:hover {
+  color: #d58;
+}
+
+#inputs {
+  padding-top: 70px;
+}
+
 footer {
   background-color: #ff8d12;
-}
-
-input:focus~label, textarea:focus~label, input:valid~label, textarea:valid~label {
-  font-size: 0.75em;
-  color: #999;
-  top: -5px;
-  -webkit-transition: all 0.225s ease;
-  transition: all 0.225s ease;
-}
-
-.message {
-  margin: 1rem 0;
-}
-
-.message label {
-  color: #999;
-  padding: 1.3rem 30px 1rem 30px;
-  position: absolute;
-  top: 10px;
-  left: 0;
-  -webkit-transition: all 0.25s ease;
-  transition: all 0.25s ease;
-}
-
-input, textarea {
-  padding: 30px;
-  border: 0;
-  width: 100%;
-  font-size: 1rem;
-  background-color: #2d2d2d;
-  color: white;
-  border-radius: 4px;
-}
-
-.input-container {
-  width: 500px;
-  max-width: 100%;
-  margin: 20px auto 25px auto;
 }
