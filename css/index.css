@@ -1,7 +1,8 @@
-body{
-  width:95%;
+body {
+  width: 95%;
   margin: auto;
 }
+
 #nav {
   background-color: #f32501;
   font-weight: bold;
@@ -12,7 +13,28 @@ body{
 }
 
 #landing-page {
-  background-image: url(https://images.pexels.com/photos/724216/pexels-photo-724216.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+  background-image: url(https://images.pexels.com/photos/2260208/pexels-photo-2260208.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+  background-size: 100% 100%;
+}
+
+#landing-page p {
+  color: black;
+  padding: 130px 0 100px 0;
+  line-height: 2em;
+  font-size: 20px;
+}
+
+#landing-page button {
+  font-weight: bolder;
+  font-size: 20px;
+  margin-bottom: 4%;
+}
+
+#welcome h2 {
+  color: #143c01;
+  padding: 125px 0 50px 0;
+  line-height: 1.6em;
+  font-size: 45px;
 }
 
 h3, p {
