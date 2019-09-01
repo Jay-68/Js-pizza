@@ -1,0 +1,26 @@
+#nav {
+  background-color: #f32501;
+  font-weight: bold;
+  position: fixed;
+  top: 0;
+  z-index: 9999;
+  width: 95%;
+  margin: auto;
+}
+
+.container {
+  font-weight: bold;
+}
+
+h3 h5 {
+  /* font-weight: 800; */
+  /* padding-top: 70px; */
+}
+
+#brand:hover {
+  color: #ff8d12;
+}
+
+#padIt {
+  padding-top: 70px;
+}

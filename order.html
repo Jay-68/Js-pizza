@@ -5,27 +5,211 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>J's Pizza</title>
+  <title>J's Pizza-Order Now!</title>
+  <link href="https://fonts.googleapis.com/css?family=Pathway+Gothic+One|Satisfy&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300i&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/bootstrap.min.css">
-  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="css/order.css">
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg navbar-light container" id="nav">
-    <a class="navbar-brand" href="#" id="brand">J's Pizza</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-      aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse navbar-right" id="navbarNavAltMarkup">
-      <div class="navbar-nav ml-auto">
-        <a class="nav-item nav-link active" href="#">HOME<span class="sr-only">(current)</span></a>
-        <a class="nav-item nav-link" href="order.html">ORDER NOW!</a>
-        <a class="nav-item nav-link" href="#about-us">ABOUT US</a>
-        <a class="nav-item nav-link" href="#">CONTACT US</a>
+  <div class="container">
+    <h1 class="text-center">Welcome to J's Pizza! <br> Make your selections to place an order today.</h1>
+    <form id="orderform">
+      <div class="form-group">
+        <label for="pizza-name">Order placed by:</label>
+        <input type="text" class="form-control col-md-3" id="pizza-name">
+      </div>
+      <div class="row">
+        <div class="col-md-3">
+          <div id="Size">
+            <h3>Select a size:</h3>
+            <div class="radio">
+              <label>
+                <input type="radio" name="sizeradio" id="Small" value="Small" checked>
+                Small - $12
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="sizeradio" id="Medium" value="Medium">
+                Medium - $14
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="sizeradio" id="Large" value="Large">
+                Large - $18
+              </label>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div id="crust">
+            <h3>Choose your crust:</h3>
+            <div class="radio">
+              <label>
+                <input type="radio" name="crustradio" id="classic" value="Classic" checked>
+                Classic - no charge
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="crustradio" id="wholegrain" value="Whole Grain Beer">
+                Whole Grain Beer Crust - $2
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="crustradio" id="gf" value="Gluten Free">
+                Gluten Free Crust - $2
+              </label>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div id="toppings">
+            <h3>Regular toppings:</h3>
+            <h5>$1, or $1.50 for large</h5>
+            <div class="checkbox">
+              <label><input type="checkbox" class="regular" value="Spinach">Spinach</label>
+            </div>
+            <div class="checkbox">
+              <label><input type="checkbox" class="regular" value="Olives">Olives</label>
+            </div>
+            <div class="checkbox">
+              <label><input type="checkbox" class="regular" value="Red Onion">Red Onion</label>
+            </div>
+            <div class="checkbox">
+              <label><input type="checkbox" class="regular" value="Roasted Garlic">Roasted Garlic</label>
+            </div>
+            <div class="checkbox">
+              <label><input type="checkbox" class="regular" value="Mushrooms">Mushrooms</label>
+            </div>
+            <div class="checkbox">
+              <label><input type="checkbox" class="regular" value="Pineapple">Pineapple</label>
+            </div>
+            <div class="checkbox">
+              <label><input type="checkbox" class="regular" value="Tomato">Tomato</label>
+            </div>
+            <div class="checkbox">
+              <label><input type="checkbox" class="regular" value="Cilantro">Cilantro</label>
+            </div>
+            <div class="checkbox">
+              <label><input type="checkbox" class="regular" value="Red Pepper">Red Pepper</label>
+            </div>
+            <div class="checkbox">
+              <label><input type="checkbox" class="regular" value="Jalapeno">Jalapeno</label>
+            </div>
+            <div class="checkbox">
+              <label><input type="checkbox" class="regular" value="Ricotta">Ricotta</label>
+            </div>
+            <div class="checkbox">
+              <label><input type="checkbox" class="regular" value="Blue Cheese Crumbles">Blue Cheese Crumbles</label>
+            </div>
+            <div class="checkbox">
+              <label><input type="checkbox" class="regular" value="Feta">Feta</label>
+            </div>
+            <div class="checkbox">
+              <label><input type="checkbox" class="regular" value="Cheddar">Cheddar</label>
+            </div>
+            <div class="checkbox">
+              <label><input type="checkbox" class="regular" value="Sausage">Sausage</label>
+            </div>
+            <div class="checkbox">
+              <label><input type="checkbox" class="regular" value="Chicken">Chicken</label>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div id="premium">
+            <h3>Premium Toppings</h3>
+            <h5>$2, or $3 for large</h5>
+            <div class="checkbox">
+              <label><input type="checkbox" class="regular" value="Meatballs">Meatballs</label>
+            </div>
+            <div class="checkbox">
+              <label><input type="checkbox" class="regular" value="Bacon">Bacon</label>
+            </div>
+            <div class="checkbox">
+              <label><input type="checkbox" class="regular" value="Pepperoni">Pepperoni</label>
+            </div>
+            <div class="checkbox">
+              <label><input type="checkbox" class="regular" value="Anchovies">Anchovies</label>
+            </div>
+            <div class="checkbox">
+              <label><input type="checkbox" class="regular" value="Ham">Ham</label>
+            </div>
+            <div class="checkbox">
+              <label><input type="checkbox" class="premium" value="Pesto">Pesto</label>
+            </div>
+            <div class="checkbox">
+              <label><input type="checkbox" class="premium" value="Prosciutto">San Prosciutto</label>
+            </div>
+            <div class="checkbox">
+              <label><input type="checkbox" class="premium" value="Chorizo">Spanish Chorizo</label>
+            </div>
+            <div class="checkbox">
+              <label><input type="checkbox" class="premium" value="Buffalo Chicken">Buffalo Chicken</label>
+            </div>
+            <div class="checkbox">
+              <label><input type="checkbox" class="premium" value="Shrimp">Shrimp</label>
+            </div>
+            <div class="checkbox">
+              <label><input type="checkbox" class="premium" value="Clams">Clams</label>
+            </div>
+            <div class="checkbox">
+              <label><input type="checkbox" class="premium" value="Avocado">Avocado</label>
+            </div>
+            <div class="checkbox">
+              <label><input type="checkbox" class="premium" value="Sun-Dried Tomato">Sun-Dried Tomato</label>
+            </div>
+            <div class="checkbox">
+              <label><input type="checkbox" class="premium" value="Truffle Oil">Truffle Oil</label>
+            </div>
+            <div class="checkbox">
+              <label><input type="checkbox" class="premium" value="Calabrian Chili">Calabrian Chili</label>
+            </div>
+            <div class="checkbox">
+              <label><input type="checkbox" class="premium" value="Vegan Cheese">Vegan Cheese</label>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button type="submit" class="btn btn-primary" id="pizza-add">Add pizza</button>
+    </form>
+    <div class="row">
+      <div class="col-md-6">
+        <h2>My Pizzas:</h2>
+        <ul id="pizzas">
+
+        </ul>
+        <h2>Pizzas in cart: <span class="order-count"></span></h2>
+        <h2>Order total: <span class="order-total"></span></h2>
+      </div>
+      <div class="col-md-6">
+        <div id="show-pizza">
+          <h3><span class="pizza-name"></span></h3>
+
+          <h5>Size: <span class="pizza-size"></span></h5>
+          <h5>Toppings: <span class="toppings-list"></span></h5>
+          <h5>Premium toppings: <span class="premium-list"></span></p>
+            <h5>Crust: <span class="pizza-crust"></span></h5>
+            <h4>Price: <span class="pizza-price"></span></h4>
+            <button type="button" class="btn btn-danger" id="pizza-remove">Remove pizza</button>
+        </div>
       </div>
     </div>
-  </nav>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
   <script src="js/jquery-3.4.1.slim.js"></script>
   <script src="js/index.js"></script>
 </body>
