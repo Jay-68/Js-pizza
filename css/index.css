@@ -14,7 +14,7 @@ body {
 
 #landing-page {
   background-image: url(https://images.pexels.com/photos/2260208/pexels-photo-2260208.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
-  background-size: 100% 100%;
+  background-size: cover;
 }
 
 #landing-page p {
@@ -35,6 +35,16 @@ body {
   padding: 125px 0 50px 0;
   line-height: 1.6em;
   font-size: 45px;
+}
+
+.btn {
+  background-color: #143c01;
+  border: none;
+}
+
+.btn:hover {
+  background-color: #6c9448;
+  color: black;
 }
 
 h3, p {
