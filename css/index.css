@@ -14,13 +14,13 @@ body {
 }
 
 #landing-page {
-  background-image: url(https://images.pexels.com/photos/2260208/pexels-photo-2260208.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
-  background-size: cover;
+  background-image: url(https://images.pexels.com/photos/1741749/pexels-photo-1741749.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+  background-size: 100% 100%;
 }
 
 #landing-page p {
   font-weight: bolder;
-  color: black;
+  color: white;
   padding: 130px 0 78px 0;
   line-height: 2em;
   font-size: 20px;
@@ -33,7 +33,7 @@ body {
 }
 
 #welcome h2 {
-  color: #143c01;
+  color: #ff8d12;
   padding: 125px 0 28px 0;
   line-height: 1.6em;
   font-size: 45px;

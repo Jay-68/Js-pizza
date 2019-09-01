@@ -20,7 +20,7 @@ body {
 }
 
 #main {
-  background-image: url(https://images.pexels.com/photos/2231158/pexels-photo-2231158.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+  background-color: #ffff99;
   background-size: cover;
   color: black;
   font-weight: bold;
@@ -45,7 +45,7 @@ hr {
 
 blockquote {
   font-size: 20px;
-  color: white;
+  color: black;
   font-family: 'Satisfy', cursive;
 }
 
