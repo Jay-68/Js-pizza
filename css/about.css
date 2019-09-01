@@ -1,0 +1,13 @@
+body {
+  width: 95%;
+  margin: auto;
+}
+
+#nav {
+  background-color: #ff8d12;
+  font-weight: bold;
+}
+
+#brand:hover {
+  color: #f32501;
+}
