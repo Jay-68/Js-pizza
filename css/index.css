@@ -1,3 +1,7 @@
+body{
+  width:95%;
+  margin: auto;
+}
 #nav {
   background-color: #f32501;
   font-weight: bold;
@@ -6,9 +10,11 @@
 #brand:hover {
   color: #ff8d12;
 }
-.carousel-item img{
-  height: 581px;
+
+#landing-page {
+  background-image: url(https://images.pexels.com/photos/724216/pexels-photo-724216.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
 }
+
 h3, p {
   color: limegreen;
   font-weight: bold;
