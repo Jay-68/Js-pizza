@@ -1,11 +1,18 @@
 body {
   width: 95%;
   margin: auto;
+  font-family: 'Roboto', sans-serif;
 }
 
 #nav {
   background-color: #ff8d12;
   font-weight: bold;
+  position: fixed;
+  top: 0;
+  z-index: 9999;
+  width: 95%;
+  margin: auto;
+  /* height: 50px; */
 }
 
 #brand:hover {
@@ -17,6 +24,13 @@ body {
   background-size: cover;
   color: black;
   font-weight: bold;
+  line-height: 25px;
+  padding-top: 25px;
+}
+
+#main h2 {
+  text-transform: uppercase;
+  font-weight: bolder;
 }
 
 #main card {
@@ -28,7 +42,13 @@ hr {
   margin: auto;
   margin-bottom: 10px;
 }
-blockquote{
+
+blockquote {
   font-size: 20px;
   color: white;
+  font-family: 'Satisfy', cursive;
+}
+
+footer {
+  background-color: #f32501;
 }
