@@ -1,20 +1,41 @@
+body{
+  background-image: url(https://images.pexels.com/photos/919436/pexels-photo-919436.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+  background-size: cover;
+}
 #nav {
   background-color: #f32501;
   font-weight: bold;
   position: fixed;
   top: 0;
   z-index: 9999;
-  width: 95%;
+  width: 100%;
   margin: auto;
 }
 
 .container {
+  color: black;
+  font-weight: bold;
+  padding-top: 60px;
+}
+
+#show-pizza {
+  display: none;
+}
+
+#pizza-add {
+  background-color: #143c01;
+  color: white;
   font-weight: bold;
 }
 
-h3 h5 {
-  /* font-weight: 800; */
-  /* padding-top: 70px; */
+#pizza-add:hover {
+  background-color: #95b038;
+  color: black;
+}
+
+.pizza {
+  cursor: pointer;
+  color: #ff8d12;
 }
 
 #brand:hover {
@@ -23,4 +44,9 @@ h3 h5 {
 
 #padIt {
   padding-top: 70px;
+}
+
+footer {
+  margin-top: 10px;
+  background-color: #ff8d12;
 }

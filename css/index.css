@@ -19,6 +19,7 @@ body {
 }
 
 #landing-page p {
+  font-weight: bolder;
   color: black;
   padding: 130px 0 78px 0;
   line-height: 2em;
@@ -36,6 +37,7 @@ body {
   padding: 125px 0 28px 0;
   line-height: 1.6em;
   font-size: 45px;
+  font-weight: bolder;
 }
 
 .btn {

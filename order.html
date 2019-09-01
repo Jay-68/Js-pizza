@@ -13,6 +13,23 @@
 </head>
 
 <body>
+  <div>
+    <nav class="navbar navbar-expand-lg navbar-light" id="nav">
+      <a class="navbar-brand" href="index.html" id="brand">J's Pizza</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse navbar-right" id="navbarNavAltMarkup">
+        <div class="navbar-nav ml-auto">
+          <a class="nav-item nav-link" href="index.html">HOME</a>
+          <a class="nav-item nav-link" href="about-us.html">ABOUT US</a>
+          <a class="nav-item nav-link active" href="#">ORDER NOW!</a>
+          <a class="nav-item nav-link" href="contact-us.html">CONTACT US</a>
+        </div>
+      </div>
+    </nav>
+  </div>
   <div class="container">
     <h1 class="text-center">Welcome to J's Pizza! <br> Make your selections to place an order today.</h1>
     <form id="orderform">
@@ -27,19 +44,19 @@
             <div class="radio">
               <label>
                 <input type="radio" name="sizeradio" id="Small" value="Small" checked>
-                Small - $12
+                Small - Ksh.1200
               </label>
             </div>
             <div class="radio">
               <label>
                 <input type="radio" name="sizeradio" id="Medium" value="Medium">
-                Medium - $14
+                Medium - Ksh.1400
               </label>
             </div>
             <div class="radio">
               <label>
                 <input type="radio" name="sizeradio" id="Large" value="Large">
-                Large - $18
+                Large - Ksh.1800
               </label>
             </div>
           </div>
@@ -56,13 +73,13 @@
             <div class="radio">
               <label>
                 <input type="radio" name="crustradio" id="wholegrain" value="Whole Grain Beer">
-                Whole Grain Beer Crust - $2
+                Whole Grain Beer Crust - Ksh.200
               </label>
             </div>
             <div class="radio">
               <label>
                 <input type="radio" name="crustradio" id="gf" value="Gluten Free">
-                Gluten Free Crust - $2
+                Gluten Free Crust - Ksh.200
               </label>
             </div>
           </div>
@@ -70,7 +87,7 @@
         <div class="col-md-3">
           <div id="toppings">
             <h3>Regular toppings:</h3>
-            <h5>$1, or $1.50 for large</h5>
+            <h5>Ksh.100 or Ksh.150 for large</h5>
             <div class="checkbox">
               <label><input type="checkbox" class="regular" value="Spinach">Spinach</label>
             </div>
@@ -124,7 +141,7 @@
         <div class="col-md-3">
           <div id="premium">
             <h3>Premium Toppings</h3>
-            <h5>$2, or $3 for large</h5>
+            <h5>Ksh.200 or Ksh.300 for large</h5>
             <div class="checkbox">
               <label><input type="checkbox" class="regular" value="Meatballs">Meatballs</label>
             </div>
@@ -176,7 +193,7 @@
           </div>
         </div>
       </div>
-      <button type="submit" class="btn btn-primary" id="pizza-add">Add pizza</button>
+      <button type="submit" class="btn" id="pizza-add">Add pizza</button>
     </form>
     <div class="row">
       <div class="col-md-6">
@@ -200,6 +217,11 @@
         </div>
       </div>
     </div>
+  </div>
+  <div>
+    <footer class="text-center font-weight-bold">
+      &copy;JAMES NGARI &bull; 2019
+    </footer>
   </div>
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
     integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
