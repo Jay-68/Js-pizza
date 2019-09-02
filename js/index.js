@@ -40,6 +40,12 @@ Pizza.prototype.price = function () {
   return pizzaPrice;
 }
 
+function delivery() {
+  let location = prompt('Enter your location below..')
+  alert('Your order will be delivered to ' + location + ' in 30 minutes for an additional Ksh.200. Thank you for choosing us!');
+}
+
+
 // User Interface logic
 let getToppings = function () {
   let allToppings = [];
